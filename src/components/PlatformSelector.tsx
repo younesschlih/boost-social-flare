@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Instagram, Twitter, Facebook, Youtube, Twitch, Tiktok, Linkedin, Pinterest } from 'lucide-react';
+import { Instagram, Twitter, Facebook, Youtube, Twitch, BrainCircuit, Linkedin, CircleDot } from 'lucide-react';
 
 interface Platform {
   name: string;
@@ -11,13 +11,13 @@ interface Platform {
 const PlatformSelector = () => {
   const platforms: Platform[] = [
     { name: "Instagram", icon: <Instagram size={32} />, color: "bg-gradient-to-br from-purple-500 to-pink-500" },
-    { name: "TikTok", icon: <Tiktok size={32} />, color: "bg-black" },
+    { name: "TikTok", icon: <BrainCircuit size={32} />, color: "bg-black" },
     { name: "Twitter", icon: <Twitter size={32} />, color: "bg-blue-400" },
     { name: "Facebook", icon: <Facebook size={32} />, color: "bg-blue-600" },
     { name: "YouTube", icon: <Youtube size={32} />, color: "bg-red-600" },
     { name: "Twitch", icon: <Twitch size={32} />, color: "bg-purple-600" },
     { name: "LinkedIn", icon: <Linkedin size={32} />, color: "bg-blue-700" },
-    { name: "Pinterest", icon: <Pinterest size={32} />, color: "bg-red-500" }
+    { name: "Pinterest", icon: <CircleDot size={32} />, color: "bg-red-500" }
   ];
 
   return (

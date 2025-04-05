@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -25,9 +24,9 @@ import {
   Facebook, 
   Youtube, 
   Twitch, 
-  Tiktok, 
+  BrainCircuit,
   Linkedin, 
-  Pinterest,
+  CircleDot,
   ArrowLeft,
   Lock,
   CreditCard,
@@ -57,13 +56,13 @@ const Checkout = () => {
   
   const platforms = [
     { value: "instagram", label: "Instagram", icon: <Instagram size={20} /> },
-    { value: "tiktok", label: "TikTok", icon: <Tiktok size={20} /> },
+    { value: "tiktok", label: "TikTok", icon: <BrainCircuit size={20} /> },
     { value: "twitter", label: "Twitter", icon: <Twitter size={20} /> },
     { value: "facebook", label: "Facebook", icon: <Facebook size={20} /> },
     { value: "youtube", label: "YouTube", icon: <Youtube size={20} /> },
     { value: "twitch", label: "Twitch", icon: <Twitch size={20} /> },
     { value: "linkedin", label: "LinkedIn", icon: <Linkedin size={20} /> },
-    { value: "pinterest", label: "Pinterest", icon: <Pinterest size={20} /> }
+    { value: "pinterest", label: "Pinterest", icon: <CircleDot size={20} /> }
   ];
   
   const services = [
